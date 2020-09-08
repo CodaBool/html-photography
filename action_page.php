@@ -22,6 +22,6 @@
 
     header("location: http://codabool.com/projects/1/thank_you.html");
 */
-header("location: http://codabool.com/projects");
+header("location: /thank_you.html");
 exit();
 ?>
