@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Ven+ Photography</title>
+	<link rel="stylesheet" href="albums.css" />
+	<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+	<div id="top_menu">
+		<header id="top_header">
+			<h1><a name="jumpup"><a href="./index.html"><img src="https://i.imgur.com/lJevLgm.png?1" id="logo"></a></a></h1>
+		</header>
+		<nav id="top_menu_links">
+			<ul>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./gallery.html">Gallery</a></li>
+				<li><a href="./packages.html">Packages</a></li>
+				<li><a href="./albums.html">Albums</a></li>
+				<li><a href="./index.html#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<!--	<div class="parallax"></div> -->
+<div id="bigwrapper">
+	<div class="navBox">
+		<img src="./images/navBox-home.PNG" id="img-home">
+		<a href="https://codabool.com" class="navBox-btn" id="btn-home">GO HOME</a>
+		<a href="https://github.com/CodaBool/html-photography" class="navBox-btn" id="btn-code">SEE CODE</a>
+		<img src="./images/navBox-code.PNG" id="img-code">
+	</div>
+	<div class="navBox-small">
+		<a href="https://codabool.com" class="navBox-btn" id="btn-home">HOME</a>
+		<a href="https://github.com/CodaBool/html-photography" class="navBox-btn" id="btn-code">CODE</a>
+	</div>
+		<section id="main_section"><br><br><br>
+	<h1 id="cursive">Albums</h1>
+	<hr><hr><br><br><br>
+	<p style="text-align:center;"></p>
+		<ul class="flex-container">
+		  <li class="flex-sell">
+		  <a href="https://photos.app.goo.gl/ey9KA1pCVay5Qcyp6"><span class="imgFade"><div class="container"><img src="https://i.imgur.com/481rRMY.jpg?2" class="item-fade" style="height:300px;overflow:hidden;"><div class="centered">Terrell and Melanie Baby Joshua</div></div></span></a></li>
+		  <li class="flex-sell">
+		  <a href="https://photos.app.goo.gl/Jew9fPBprVqMa9xJ7"><span class="imgFade"><div class="container"><img src="https://i.imgur.com/WsGXlDy.jpg?1" class="item-fade" style="height:300px;"><div class="centered">Family Event</div></div></span></a></li>
+		  <li class="flex-sell">
+		  <a href="https://photos.app.goo.gl/272Hv82GybccPcU3A"><span class="imgFade"><div class="container"><img src="https://i.imgur.com/s2rrOyQ.jpg?2" class="item-fade" style="height:300px;"><div class="centered">Courtney</div></div></span></a></li>
+		</ul><br><br><br><br><br><br><br><br><br>
+	</section>
+</div>
+<footer id="the_footer">
+		<ul class="flex-container">
+		</ul>
+</footer>
+</body>
+<script>
+	$(document).ready(function(){
+		$("#btn-home").hover(function(){
+			$("#img-home").css("height", 200);
+			}, function(){
+			$("#img-home").css("height", 0);
+		});
+		$("#btn-code").hover(function(){
+			$("#img-code").css("height", 200);
+			}, function(){
+			$("#img-code").css("height", 0);
+		});
+	});
+</script>
+</html>
