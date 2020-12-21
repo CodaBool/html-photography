@@ -250,6 +250,7 @@ margin-right:20%;
 	position: fixed;
 	right: 25px;
   top:50%;
+  z-index: 2;
   height:120px;
   font-size: 1.2em;
   width:12%;
@@ -260,14 +261,6 @@ margin-right:20%;
   display: block;
   margin: auto;
 }
-
-html {
-  *, *:before, *:after {
-    box-sizing: border-box;
-    transition: 0.5s ease-in-out;
-  }
-}
-
 *:before, *:after {
   z-index: -1;
 }
@@ -327,24 +320,24 @@ html *, html *:before, html *:after {
 
 .navBox {
   display:block;
+  z-index: 2;
+  color:black;
 }
 .navBox-small {
+  z-index: 2;
   display: none;
   background: rgba(255, 255, 255, .7);
 }
 
-.navBox {
-	color:black;
-}
 /* resizes the body to match the screen width if viewed on small screen device */
 @media screen and (max-width: 1200px) {
 	#top_menu img{
 		height:200px;
 	}
-	.navBox {
+	/* .navBox {
 		display:none;
 	}
 	.navBox-small {
 		display: block;
-	}
+	} */
 }

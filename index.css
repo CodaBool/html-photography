@@ -390,7 +390,8 @@ margin-right:20%;
 }
 
 .navBox {
-	position: fixed;
+  position: fixed;
+  z-index: 2;
 	right: 25px;
   top:50%;
   height:120px;
@@ -403,12 +404,12 @@ margin-right:20%;
   display: block;
   margin: auto;
 }
-html {
+/* html {
   *, *:before, *:after {
     box-sizing: border-box;
     transition: 0.5s ease-in-out;
   }
-}
+} */
 
 *:before, *:after {
   z-index: -1;
@@ -468,9 +469,11 @@ a {
 
 .navBox {
   display:block;
+  z-index: 2;
 }
 .navBox-small {
   display: none;
+  z-index: 2;
   background: rgba(255, 255, 255, .7);
 }
 
@@ -482,10 +485,10 @@ a {
 	#top_menu img{
 		height:200px;
 	}
-	.navBox {
+	/* .navBox {
 		display:none;
 	}
 	.navBox-small {
 		display: block;
-	}
+	} */
 }

@@ -160,7 +160,6 @@ font-family: 'Cedarville Cursive', cursive;
 .no_bullets{
 	text-decoration:none;
 }
-}
 #sell{
 	padding-bottom:30px;
 	  background:linear-gradient(rgb(218, 234, 241), white);
@@ -282,12 +281,6 @@ margin-right:20%;
   margin: auto;
 }
 
-html {
-  *, *:before, *:after {
-    box-sizing: border-box;
-    transition: 0.5s ease-in-out;
-  }
-}
 
 *:before, *:after {
   z-index: -1;
@@ -362,10 +355,10 @@ html *, html *:before, html *:after {
 	#top_menu img{
 		height:200px;
 	}
-	.navBox {
+	/* .navBox {
 		display:none;
 	}
 	.navBox-small {
 		display: block;
-	}
+	} */
 }

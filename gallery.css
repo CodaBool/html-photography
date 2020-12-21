@@ -267,6 +267,7 @@ color:white;
 	right: 25px;
   top:50%;
   height:120px;
+  z-index: 2;
   font-size: 1.2em;
   width:8%;
 }
@@ -275,12 +276,6 @@ color:white;
   height: 0px;
   display: block;
   margin: auto;
-}
-
-html {
-  *, *:before, *:after {
-    transition: 0.5s ease-in-out;
-  }
 }
 
 *:before, *:after {
@@ -341,14 +336,13 @@ html *, html *:before, html *:after {
 
 .navBox {
   display:block;
+  color:black;
+  z-index: 2;
 }
 .navBox-small {
   display: none;
+  z-index: 2;
   background: rgba(255, 255, 255, .7);
-}
-
-.navBox {
-	color:black;
 }
 /* resizes the body to match the screen width if viewed on small screen device */
 @media screen and (max-width: 1200px) {
@@ -360,10 +354,10 @@ html *, html *:before, html *:after {
         flex: 100%;
         max-width: 100%;
     }
-	.navBox {
+	/* .navBox {
 		display:none;
 	}
 	.navBox-small {
 		display: block;
-	}
+	} */
 }
